@@ -1,0 +1,168 @@
+.body{
+    text-align: center;
+    width: 900px;
+    margin:auto
+}
+.logoIMG{
+    float: left;
+    margin-right: 10px;
+}
+.socialICONS{
+    float: right;
+}
+
+.logoWords{
+    float: left;
+}
+
+.delicious{
+    font-size: 28px;
+    text-align: left;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.clear{
+    clear:both;
+}
+
+
+hr.grey{
+    width:100%;
+    background-color: grey;
+    margin-top: 40px;
+    height:12px;
+    opacity: 0.5;
+    
+}
+
+.content{
+    margin-top: 70px;
+}
+
+.postTitleFirst{
+    text-align: left;
+    font-size: 38px;
+    margin-bottom: 0px;
+}
+
+.postTitleSecond{
+    text-align: left;
+    font-size: 14px;
+    color:grey;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.postDate{
+    float: left;
+    text-align: left;
+}
+
+.print{
+    float: right;
+    text-align: right;
+    display: block;
+}
+
+p{
+    font-size: 20px;
+    color:grey;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.container{
+    position:relative;
+    
+    color:darkolivegreen;
+}
+
+.center{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    font-size:20px;
+    column-count: 2;
+}
+tr{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+td{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align:left;
+    vertical-align: top;
+}
+
+.headIMG{
+    float:left;
+    margin: 20px;
+    
+}
+.flex-container{
+    display: flex;
+}
+
+.bio{
+    float:left;
+    color: grey;
+    width: 60%;
+}
+
+.name{
+    color: black;
+    font-size:24px;
+    font-weight: 300;
+    text-align: left;
+    margin: 15px 0px 10px 0px ;
+}
+.nameDescription{
+    font-size: 18px;
+    text-align: left;
+    float: left;
+}
+
+
+.shareButton{
+    float: right;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: orangered;
+    border: none;
+    color:white;
+    text-align:center;
+    padding: 20px 38px;
+    margin: 15px 0px 25px 20px;
+    white-space: nowrap;
+}
+.footerBorder {
+    margin: 50px 0px 0px 0px; 
+ }  
+
+.footerIMG{
+    width: 4%;
+    opacity: 0.6;  
+    padding: 30px 10px;  
+}
+
+
+.footerText{
+    text-align: center;
+    color:grey;
+    font-size: 16px;
+    margin: 3px;
+}
+
+.line{
+    
+    width:425px;
+    height:47px;
+    border-bottom: 1px solid lightgray;
+    position: absolute;
+}
