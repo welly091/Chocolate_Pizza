@@ -1,6 +1,7 @@
 .body{
     text-align: center;
     width: 900px;
+    margin:auto
 }
 .logoIMG{
     float: left;
@@ -85,10 +86,9 @@ p{
 .center{
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 7%;
     font-size:20px;
     column-count: 2;
-    column-gap: 30px;
 }
 tr{
     margin-top: 0%;
@@ -112,6 +112,7 @@ td{
 .bio{
     float:left;
     color: grey;
+    width: 60%;
 }
 
 .name{
@@ -124,42 +125,32 @@ td{
 .nameDescription{
     font-size: 18px;
     text-align: left;
-    
-    
+    float: left;
 }
 
+
 .shareButton{
-    font-size: 15px;
+    float: right;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: orangered;
     border: none;
     color:white;
     text-align:center;
-    padding: 10px 38px;
-    margin: 25px 0px 25px 20px;
+    padding: 20px 38px;
+    margin: 15px 0px 25px 20px;
     white-space: nowrap;
 }
-h4{
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-}
-h4:before,
-h4:after{
-    content:"";
-    flex: 1 1;
-    border-bottom: 1px solid lightgray;
-    margin:auto;
-}
+.footerBorder {
+    margin: 50px 0px 0px 0px; 
+ }  
 
 .footerIMG{
     width: 4%;
-    opacity: 0.6;
-    
+    opacity: 0.6;  
+    padding: 30px 10px;  
 }
 
-.footer{
-    margin: 35px;
-}
 
 .footerText{
     text-align: center;
@@ -168,3 +159,10 @@ h4:after{
     margin: 3px;
 }
 
+.line{
+    
+    width:425px;
+    height:47px;
+    border-bottom: 1px solid lightgray;
+    position: absolute;
+}
